@@ -106,7 +106,7 @@ def sleep_posture_result_statistics(raw_data_array):
 def main():
 
 	# open file 
-	raw_data_df = pd.read_csv('../data/allnightData/Jones0430.csv')
+	raw_data_df = pd.read_csv('../data/allnightData/Subject1_0430.csv')
 	raw_data_array = raw_data_df.to_numpy()
 
 	# sitting lying posture data
